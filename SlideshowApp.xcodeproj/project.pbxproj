@@ -13,6 +13,10 @@
 		DC9DCFCD2608D0540023873D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9DCFCB2608D0540023873D /* Main.storyboard */; };
 		DC9DCFCF2608D0560023873D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9DCFCE2608D0560023873D /* Assets.xcassets */; };
 		DC9DCFD22608D0560023873D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9DCFD02608D0560023873D /* LaunchScreen.storyboard */; };
+		DC9DCFDD2609FB370023873D /* sakura1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9DCFDA2609FB370023873D /* sakura1.png */; };
+		DC9DCFDE2609FB370023873D /* sakura2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9DCFDB2609FB370023873D /* sakura2.png */; };
+		DC9DCFDF2609FB370023873D /* sakura3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9DCFDC2609FB370023873D /* sakura3.png */; };
+		DC9DCFE7260A17830023873D /* ExpansionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9DCFE6260A17830023873D /* ExpansionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DC9DCFCE2608D0560023873D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9DCFD12608D0560023873D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC9DCFD32608D0560023873D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9DCFDA2609FB370023873D /* sakura1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sakura1.png; sourceTree = "<group>"; };
+		DC9DCFDB2609FB370023873D /* sakura2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sakura2.png; sourceTree = "<group>"; };
+		DC9DCFDC2609FB370023873D /* sakura3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sakura3.png; sourceTree = "<group>"; };
+		DC9DCFE6260A17830023873D /* ExpansionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpansionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				DC9DCFC52608D0540023873D /* AppDelegate.swift */,
 				DC9DCFC72608D0540023873D /* SceneDelegate.swift */,
 				DC9DCFC92608D0540023873D /* ViewController.swift */,
+				DC9DCFE6260A17830023873D /* ExpansionViewController.swift */,
 				DC9DCFCB2608D0540023873D /* Main.storyboard */,
 				DC9DCFCE2608D0560023873D /* Assets.xcassets */,
 				DC9DCFD02608D0560023873D /* LaunchScreen.storyboard */,
 				DC9DCFD32608D0560023873D /* Info.plist */,
+				DC9DCFDA2609FB370023873D /* sakura1.png */,
+				DC9DCFDB2609FB370023873D /* sakura2.png */,
+				DC9DCFDC2609FB370023873D /* sakura3.png */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -126,7 +138,10 @@
 			files = (
 				DC9DCFD22608D0560023873D /* LaunchScreen.storyboard in Resources */,
 				DC9DCFCF2608D0560023873D /* Assets.xcassets in Resources */,
+				DC9DCFDE2609FB370023873D /* sakura2.png in Resources */,
+				DC9DCFDD2609FB370023873D /* sakura1.png in Resources */,
 				DC9DCFCD2608D0540023873D /* Main.storyboard in Resources */,
+				DC9DCFDF2609FB370023873D /* sakura3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9DCFE7260A17830023873D /* ExpansionViewController.swift in Sources */,
 				DC9DCFCA2608D0540023873D /* ViewController.swift in Sources */,
 				DC9DCFC62608D0540023873D /* AppDelegate.swift in Sources */,
 				DC9DCFC82608D0540023873D /* SceneDelegate.swift in Sources */,
