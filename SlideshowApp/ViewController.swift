@@ -89,6 +89,17 @@ class ViewController: UIViewController {
                 = segue.destination as! ExpansionViewController
 
         expansionViewController.image = imageArray[nowIndex]
+        if self.timer != nil {
+            // 停止時の処理を実装
+            forwardButton.isEnabled = true
+            returnButton.isEnabled = true
+            // タイマーを停止する
+            timer.invalidate()
+            // タイマーを削除しておく
+            timer = nil
+            // ボタンの名前を再生に直しておく
+            startButton.setTitle("再生", for: .normal)
+        }
     }
     
 }
